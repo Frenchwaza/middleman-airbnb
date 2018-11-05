@@ -1,0 +1,20 @@
+.flat-container {
+ padding: 30px 30px;
+ display: flex;
+ justify-content: space-around;
+}
+
+.small-img {
+  width: 150px;
+  border: $blue-grey 1px solid;
+  margin-top: 10px;
+}
+
+.flat-banner {
+  height: 50vh;
+  background-size: cover;
+  }
+
+.host-desc {
+  padding: 20px;
+}
