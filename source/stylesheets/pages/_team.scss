@@ -6,10 +6,23 @@
   justify-content: space-around;
   text-align: center;
   background-image: linear-gradient(0deg, #fff 50%, #F4F4F4 50%);
-  &:list-inline {
+  .list-inline {
   padding-left: 0;
   list-style: none;
   margin-left: -5px;
 }
 }
 
+.small-img {
+  height: 200px;
+  border: $blue-grey 1px solid;
+}
+
+.username {
+  color: $dark-orange;
+}
+
+.list-inline {
+  padding-top: 40px;
+  justify-content: space-between;
+}
